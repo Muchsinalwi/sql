@@ -1,0 +1,5 @@
+INSERT into student
+	VALUES (2602173816, 'Maine', 'Jakarta', 'Management');
+
+INSERT INTO student
+	VALUES (2618082716, 'Sam', 'Malang', 'DKV');
