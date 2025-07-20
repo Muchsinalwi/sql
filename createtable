@@ -1,0 +1,14 @@
+-- create table
+
+CREATE TABLE student(
+	ID INT PRIMARY KEY,
+	Full_name VARCHAR (50),
+	City TEXT,
+	Major TEXT
+);
+
+CREATE TABLE gpa(
+	ID INT,
+	semester VARCHAR(3),
+	gpa FLOAT
+);
