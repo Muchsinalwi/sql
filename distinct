@@ -1,0 +1,12 @@
+-- The SELECT statement is used to select data from a database
+
+SELECT CustomerName, City FROM Customers;
+
+SELECT *     #(all data)
+FROM Customers
+
+The SELECT DISTINCT statement is used to return only distinct (different) values     #(removes duplicate)
+
+SELECT DISTINCT Country FROM Customers; 
+
+SELECT COUNT(DISTINCT Country) FROM Customers;
