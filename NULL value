@@ -1,0 +1,12 @@
+A field with a NULL value is a field with no value.
+
+It isn't possible to test for NULL values with comparison operators, such as =, <, or <>.
+
+Syntax:
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
