@@ -1,0 +1,15 @@
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
+
+-- With Join
+
+SELECT SUM(Price * Quantity)
+FROM OrderDetails
+LEFT JOIN Products ON OrderDetails.ProductID = Products.ProductID;
+
+-- With GROUP BY
+
+SELECT OrderID, SUM(Quantity) AS [Total Quantity]
+FROM OrderDetails
+GROUP BY OrderID;
